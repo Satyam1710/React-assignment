@@ -1,5 +1,3 @@
-// registrationSlice.ts
-
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import * as yup from 'yup';
 
@@ -39,7 +37,7 @@ const registrationSlice = createSlice({
     submitForm: (state, action: PayloadAction<FormData>) => {
       state.formData = action.payload;
     },
-    // Add other actions as needed
+  
   },
 });
 
